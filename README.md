@@ -1,6 +1,6 @@
 # 🎉 Will It Rain on My Parade?
 
-A weather advisory app for outdoor event planning, built for NASA Space Apps Challenge 2024.
+A weather advisory app for outdoor event planning, built for NASA Space Apps Challenge 2025.
 
 ## 🌟 Features
 
