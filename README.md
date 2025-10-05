@@ -81,6 +81,6 @@ MIT License - feel free to use this project for your own purposes!
 
 ## 🙏 Acknowledgments
 
-- NASA Space Apps Challenge 2024
+- NASA Space Apps Challenge 2025
 - Open-Meteo for free weather data API
 - All the amazing open-source libraries used in this project
