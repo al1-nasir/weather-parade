@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 🎉 Will It Rain on My Parade?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A weather advisory app for outdoor event planning, built for NASA Space Apps Challenge 2024.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Location Search**: Check weather for any city worldwide
+- **Date Selection**: Plan events up to 14 days in advance
+- **5 Weather Conditions Analysis**:
+  - 🔥 Very Hot (>35°C)
+  - ❄️ Very Cold (<0°C)
+  - 🌧️ Very Wet (>10mm rain)
+  - 💨 Very Windy (>40 km/h)
+  - 😰 Very Uncomfortable (high heat + humidity)
+- **Visual Warnings**: Color-coded severity levels with actionable advice
+- **Real-time Data**: Uses Open-Meteo API for accurate forecasts
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js 16+ installed
+- npm or yarn package manager
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Local Development
 
-### `npm test`
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/weather-parade.git
+cd weather-parade
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-### `npm run build`
+3. **Run development server**
+```bash
+npm run dev
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Open in browser**
+```
+http://localhost:5173
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Build for Production
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+```
 
-### `npm run eject`
+## 🌐 Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This app is deployed on Vercel. Every push to the main branch automatically deploys.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Live Demo**: [Your Vercel URL]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React** - UI framework
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **Open-Meteo API** - Weather data (no API key required!)
 
-## Learn More
+## 📊 Data Sources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Weather forecasts from [Open-Meteo](https://open-meteo.com/)
+- Geocoding via Open-Meteo Geocoding API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👨‍💻 Author
 
-### Code Splitting
+**Ali Nasir**
+- Specialization: AI, Data Science, Computer Vision
+- Challenge: NASA Space Apps Challenge 2025
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 License
 
-### Analyzing the Bundle Size
+MIT License - feel free to use this project for your own purposes!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🙏 Acknowledgments
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- NASA Space Apps Challenge 2024
+- Open-Meteo for free weather data API
+- All the amazing open-source libraries used in this project
